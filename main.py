@@ -51,3 +51,22 @@
 #myfunc()
 
 
+import random
+
+while True:
+    num = input ("enter a int or string")
+
+    num2 = random.randint(1,2)
+    
+    try:
+        val = int(num)
+        if val == num2:
+            print ("you win", " the random number was:", num2)
+            break
+        else:
+            print ("ypu lost")         
+        continue
+    except ValueError:
+        print ("you entered a strintg")
+
+

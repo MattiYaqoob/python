@@ -76,7 +76,7 @@
 import random
 num2 = random.randint(1,100)
 while True:
-    num = input ("you have to inter a int number ")
+    num = input ("you have to enter a int number ")
    
     try:
         val = int(num)
@@ -89,7 +89,7 @@ while True:
             print ("too low", num2)
             continue
     except ValueError:
-        print ("you have to inter a int number")
+        print ("you have to enter a int number")
 
 
 

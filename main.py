@@ -51,22 +51,46 @@
 #myfunc()
 
 
-import random
 
-while True:
-    num = input ("enter a int or string")
 
-    num2 = random.randint(1,2)
+# while True:
+#     num = input ("enter a int or string ")
+
+#     num2 = random.randint(1,100)
     
+#     try:
+#         val = int(num)
+#         if val == num2:
+#             print ("you win", " the random number was: ", num2)
+#             break
+#         else:
+#             if val > num2:
+#                 print ("too high")
+#             elif val < num2:
+#                 print ("too low")        
+#         continue
+#     except ValueError:
+#         print ("you entered a strintg ")
+
+
+import random
+num2 = random.randint(1,100)
+while True:
+    num = input ("you have to inter a int number ")
+   
     try:
         val = int(num)
         if val == num2:
-            print ("you win", " the random number was:", num2)
+            print ("you win")
             break
-        else:
-            print ("ypu lost")         
-        continue
+        elif val > num2:
+            print ( "too high", num2)
+        elif val < num2:
+            print ("too low", num2)
+            continue
     except ValueError:
-        print ("you entered a strintg")
+        print ("you have to inter a int number")
+
+
 
 

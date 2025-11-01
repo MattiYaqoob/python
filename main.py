@@ -208,3 +208,64 @@
 
 #     else:
 #         print("Ogiltigt val, försök igen!")
+
+
+
+
+
+
+# Krav (MVP)
+# 1. Startdata: Appen ska börja med några förifyllda koncept (minst 3) och minst en
+# todo per koncept.
+# 2. Meny: Programmet ska loopa tills användaren väljer att avsluta:
+# • 1. Lista alla koncept
+# • 2. Visa todos för valt koncept
+# • 3. Lägg till nytt koncept
+# • 4. Lägg till todo till ett koncept
+# • 5. Markera todo som klar/inte klar
+# • 6. Visa översikt/statistik
+
+while True:
+
+    print("\n=== KONCEPT OCH TODOS ===")
+    print("1. Lista alla koncept")
+    print("2. Visa todos för valt koncept")
+    print("3. Lägg till nytt koncept")
+    print("4. Lägg till todo till ett koncept")
+    print("5. Markera todo som klar/inte klar")
+    print("6. Visa översikt/statistik")
+    print("0. Avsluta")
+
+    val = input("Välj ett alternativ: ")
+
+    if val == "1":
+        # === Lista alla koncept ===
+        
+        pass
+
+    elif val == "2":
+        # === Visa todos för valt koncept ===
+        pass
+
+    elif val == "3":
+        # === Lägg till nytt koncept ===
+        pass
+
+    elif val == "4":
+        # === Lägg till todo till ett koncept ===
+        pass
+
+    elif val == "5":
+        # === Markera todo som klar/inte klar ===
+        pass
+
+    elif val == "6":
+        # === Visa översikt/statistik ===
+        pass
+
+    elif val == "0":
+        print("Avslutar programmet...")
+        break
+
+    else:
+        print("Ogiltigt val, försök igen!")
